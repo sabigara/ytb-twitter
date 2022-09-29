@@ -1,0 +1,8 @@
+.container {
+  background-color: var(--colors-primary);
+  border-radius: var(--round-full);
+  display: grid;
+  place-items: center;
+  font-weight: var(--font-weight-bold);
+  flex: 1;
+}

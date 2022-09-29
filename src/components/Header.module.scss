@@ -1,6 +1,7 @@
 .container {
   width: 275px;
   height: 100vh;
+  padding: 0 0.75rem;
 }
 
 .logo {
@@ -21,4 +22,11 @@
     width: 26.25px;
     height: 26.25px;
   }
+}
+
+.tweetWrap {
+  display: flex;
+  width: 90%;
+  height: 3.25rem;
+  margin: 1rem 0;
 }
