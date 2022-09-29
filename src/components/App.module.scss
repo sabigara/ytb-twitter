@@ -17,12 +17,13 @@
 .timeline {
   flex: 1;
   max-width: 600px;
-  height: 100vh;
-  background-color: green;
+  border-style: solid;
+  border-color: var(--colors-border);
+  border-left-width: 1px;
+  border-right-width: 1px;
 }
 
 .sidebar {
   width: 350px;
   height: 100vh;
-  background-color: blue;
 }
