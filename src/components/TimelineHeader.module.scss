@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3.5rem;
+  padding: 0 1rem;
+}
+
+.title {
+  font-weight: var(--font-weight-bold);
+  font-size: 1.25rem;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
