@@ -16,6 +16,7 @@ import { ReactComponent as ProfileOutlineSvg } from "../icons/profile-outline.sv
 import { ReactComponent as MoreCircleSvg } from "../icons/more-circle.svg";
 
 import styles from "./Navigation.module.scss";
+import { SvgComponent } from "../types";
 
 type Props = unknown;
 
@@ -89,8 +90,8 @@ type ItemProps = {
   href: string;
   title: string;
   isActive?: boolean;
-  SvgIconActive: React.ComponentType<React.ComponentProps<"svg">>;
-  SvgIconInactive: React.ComponentType<React.ComponentProps<"svg">>;
+  SvgIconActive: SvgComponent;
+  SvgIconInactive: SvgComponent;
 };
 
 function NavigationItem({
