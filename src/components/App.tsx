@@ -1,5 +1,6 @@
 import styles from "./App.module.scss";
 import Header from "./Header";
+import SearchBar from "./SearchBar";
 import Timeline from "./Timeline";
 import TimelineHeader from "./TimelineHeader";
 import TweetComposer from "./TweetComposer";
@@ -17,7 +18,11 @@ function App() {
               <Timeline />
             </div>
           </div>
-          <div className={styles.sidebar}></div>
+          <div className={styles.sidebar}>
+            <div className={styles.searchBarWrap}>
+              <SearchBar />
+            </div>
+          </div>
         </main>
       </div>
     </div>
