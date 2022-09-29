@@ -5,6 +5,8 @@
   grid-template-columns: auto 1fr;
   column-gap: 0.5rem;
   padding: 1rem;
+  border-color: var(--colors-border);
+  border-bottom-width: 1px;
 }
 
 .textarea {

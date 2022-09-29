@@ -1,0 +1,56 @@
+@import "../styles/mixins.scss";
+
+.container {
+  @include hover();
+
+  display: flex;
+  column-gap: 0.75rem;
+  border-color: var(--colors-border);
+  border-bottom-width: 1px;
+  padding: 0.75rem 1rem;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.main {
+  width: 100%;
+}
+
+.meta {
+  flex: 1;
+}
+
+.userName {
+  font-weight: var(--font-weight-bold);
+}
+
+.userId {
+  margin-left: 0.25rem;
+  color: var(--colors-text-dim);
+}
+
+.dot {
+  display: inline-flex;
+  justify-content: center;
+  width: 1.25rem;
+  color: var(--colors-text-dim);
+}
+
+.time {
+  color: var(--colors-text-dim);
+}
+
+.more {
+  width: 18.75px;
+  height: 18.75px;
+  color: var(--colors-text-dim);
+}
+
+.content p:not(:first-child) {
+  margin-top: 1rem;
+}
