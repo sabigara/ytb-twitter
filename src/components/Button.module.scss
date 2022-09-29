@@ -5,4 +5,9 @@
   place-items: center;
   font-weight: var(--font-weight-bold);
   flex: 1;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: var(--colors-primary-dim);
+  }
 }
