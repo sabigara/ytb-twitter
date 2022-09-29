@@ -1,3 +1,4 @@
+import { Avatar as _Avatar } from "react-lorem-ipsum";
 import styles from "./Avatar.module.scss";
 
 type Props = {
@@ -7,10 +8,12 @@ type Props = {
 
 export default function Avatar({ size = 60, id }: Props) {
   return (
-    <img
-      src={`https://i.pravatar.cc/100${id === undefined ? "" : "?id=" + id}`}
+    <_Avatar
       className={styles.container}
-      width={size}
+      style={{
+        width: size,
+        height: size,
+      }}
     />
   );
 }
