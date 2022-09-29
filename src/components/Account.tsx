@@ -1,3 +1,4 @@
+import { username, name } from "react-lorem-ipsum";
 import Avatar from "./Avatar";
 import { ReactComponent as MoreSvg } from "../icons/more.svg";
 
@@ -10,8 +11,8 @@ export default function Account(props: Props) {
     <button className={styles.container}>
       <Avatar size={40} />
       <div className={styles.texts}>
-        <div className={styles.userName}>John Doe</div>
-        <div className={styles.userId}>@john_doe</div>
+        <div className={styles.userName}>{name()}</div>
+        <div className={styles.userId}>@{username()}</div>
       </div>
       <MoreSvg />
     </button>
