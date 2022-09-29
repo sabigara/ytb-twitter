@@ -93,14 +93,16 @@ function NavigationItem({
 }: ItemProps) {
   return (
     <a href={href} className={styles.item}>
-      {isActive ? (
-        <SvgIconActive className={styles.item__icon} />
-      ) : (
-        <SvgIconInactive className={styles.item__icon} />
-      )}
-      <span className={styles[`item__title${isActive ? "--active" : ""}`]}>
-        {title}
-      </span>
+      <div className={styles.item__inner}>
+        {isActive ? (
+          <SvgIconActive className={styles.item__icon} />
+        ) : (
+          <SvgIconInactive className={styles.item__icon} />
+        )}
+        <span className={styles[`item__title${isActive ? "--active" : ""}`]}>
+          {title}
+        </span>
+      </div>
     </a>
   );
 }

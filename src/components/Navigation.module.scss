@@ -1,9 +1,15 @@
 .item {
-  display: flex;
-  align-items: center;
-  padding: 0.75rem;
-  border-radius: var(--round-full);
-  font-size: 1.25rem;
+  $self: &;
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem;
+    border-radius: var(--round-full);
+    font-size: 1.25rem;
+    width: fit-content;
+    transition: background-color 0.3s;
+  }
 
   &__icon {
     width: 26.25px;
@@ -20,5 +26,11 @@
     font-weight: var(--font-weight-extrabold);
     margin-right: 1.25rem;
     margin-left: 1rem;
+  }
+
+  &:hover {
+    #{$self}__inner {
+      background-color: rgba(255, 255, 255, 0.1);
+    }
   }
 }
