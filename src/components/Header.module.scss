@@ -2,10 +2,12 @@
   width: 275px;
   height: 100vh;
   padding: 0 0.75rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .logo {
-  margin: 0.5rem 0;
+  margin-bottom: 0.5rem;
 
   & a {
     display: grid;
@@ -31,4 +33,9 @@
   width: 90%;
   height: 3.25rem;
   margin: 1.5rem 0;
+}
+
+.accountWrap {
+  margin-top: auto;
+  margin-bottom: 1rem;
 }
