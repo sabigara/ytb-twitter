@@ -30,10 +30,14 @@
 }
 
 .sidebar {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
   width: 350px;
-  height: 100vh;
   position: sticky;
   top: 0;
+  padding-right: 0.75rem;
+  height: fit-content;
 }
 
 .searchBarWrap {

@@ -3,6 +3,7 @@ import Header from "./Header";
 import SearchBar from "./SearchBar";
 import Timeline from "./Timeline";
 import TimelineHeader from "./TimelineHeader";
+import Trends from "./Trends";
 import TweetComposer from "./TweetComposer";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
             <div className={styles.searchBarWrap}>
               <SearchBar />
             </div>
+            <Trends />
           </div>
         </main>
       </div>
