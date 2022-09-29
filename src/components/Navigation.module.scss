@@ -23,14 +23,14 @@
   }
 
   &__title {
-    font-weight: var(--font-weight-medium);
+    font-weight: var(--font-weight-normal);
     margin-right: 1.25rem;
     margin-left: 1rem;
     line-height: 1.5rem;
   }
 
   &__title--active {
-    font-weight: var(--font-weight-extrabold);
+    font-weight: var(--font-weight-bold);
     margin-right: 1.25rem;
     margin-left: 1rem;
     line-height: 1.5rem;
