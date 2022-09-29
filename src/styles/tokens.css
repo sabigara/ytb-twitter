@@ -1,5 +1,6 @@
 :root {
   --colors-bg: #15202b;
+  --colors-hover: rgba(255, 255, 255, 0.1);
   --colors-section: #1e2732;
   --colors-text-main: #f7f9f9;
   --colors-text-dim: #8b98a5;

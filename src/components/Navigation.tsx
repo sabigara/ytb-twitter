@@ -13,6 +13,7 @@ import { ReactComponent as ListFillSvg } from "../icons/list-fill.svg";
 import { ReactComponent as ListOutlineSvg } from "../icons/list-outline.svg";
 import { ReactComponent as ProfileFillSvg } from "../icons/profile-fill.svg";
 import { ReactComponent as ProfileOutlineSvg } from "../icons/profile-outline.svg";
+import { ReactComponent as MoreCircleSvg } from "../icons/more-circle.svg";
 
 import styles from "./Navigation.module.scss";
 
@@ -61,6 +62,12 @@ const items: readonly ItemProps[] = [
     title: "Profile",
     SvgIconActive: ProfileFillSvg,
     SvgIconInactive: ProfileOutlineSvg,
+  },
+  {
+    href: "/more",
+    title: "More",
+    SvgIconActive: MoreCircleSvg,
+    SvgIconInactive: MoreCircleSvg,
   },
 ] as const;
 

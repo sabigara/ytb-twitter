@@ -26,17 +26,19 @@
     font-weight: var(--font-weight-medium);
     margin-right: 1.25rem;
     margin-left: 1rem;
+    line-height: 1.5rem;
   }
 
   &__title--active {
     font-weight: var(--font-weight-extrabold);
     margin-right: 1.25rem;
     margin-left: 1rem;
+    line-height: 1.5rem;
   }
 
   &:hover {
     #{$self}__inner {
-      background-color: rgba(255, 255, 255, 0.1);
+      background-color: var(--colors-hover);
     }
   }
 }
