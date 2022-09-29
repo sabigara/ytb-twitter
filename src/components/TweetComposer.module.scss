@@ -1,3 +1,5 @@
+@import "../styles/mixins.scss";
+
 .container {
   display: grid;
   grid-template-columns: auto 1fr;
@@ -36,6 +38,8 @@
   flex: 1;
 
   &__button {
+    @include hover();
+
     width: 36px;
     height: 36px;
     border-radius: var(--round-full);
@@ -43,10 +47,6 @@
     place-items: center;
     color: var(--colors-primary);
     transition: background-color 0.3s;
-
-    &:hover {
-      background-color: var(--colors-hover);
-    }
   }
 
   &__icon {
