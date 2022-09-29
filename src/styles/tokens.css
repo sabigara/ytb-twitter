@@ -1,6 +1,15 @@
 :root {
   --colors-bg: #15202b;
-  --colors-section: #052732;
+  --colors-section: #1e2732;
   --colors-text-main: #f7f9f9;
   --colors-text-dim: #8b98a5;
+
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+
+  --round-medium: 2rem;
+  --round-full: 9999px;
 }

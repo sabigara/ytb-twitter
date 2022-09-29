@@ -1,0 +1,24 @@
+.item {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem;
+  border-radius: var(--round-full);
+  font-size: 1.25rem;
+
+  &__icon {
+    width: 26.25px;
+    height: 26.25px;
+  }
+
+  &__title {
+    font-weight: var(--font-weight-medium);
+    margin-right: 1.25rem;
+    margin-left: 1rem;
+  }
+
+  &__title--active {
+    font-weight: var(--font-weight-extrabold);
+    margin-right: 1.25rem;
+    margin-left: 1rem;
+  }
+}

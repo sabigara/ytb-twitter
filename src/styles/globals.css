@@ -1,3 +1,6 @@
 body {
   background-color: var(--colors-bg);
+  color: var(--colors-text-main);
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial,
+    sans-serif;
 }
