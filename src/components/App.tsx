@@ -5,6 +5,7 @@ import Timeline from "./Timeline";
 import TimelineHeader from "./TimelineHeader";
 import Trends from "./Trends";
 import TweetComposer from "./TweetComposer";
+import WhoToFollow from "./WhoToFollow";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
               <SearchBar />
             </div>
             <Trends />
+            <WhoToFollow />
           </div>
         </main>
       </div>

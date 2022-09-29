@@ -8,7 +8,9 @@ export default function Trends() {
       <TrendItem />
       <TrendItem />
       <TrendItem />
-      <TrendItem />
+      <a href="#" className={styles.showMore}>
+        Show more
+      </a>
     </section>
   );
 }
