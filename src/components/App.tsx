@@ -1,6 +1,7 @@
 import styles from "./App.module.scss";
 import Header from "./Header";
 import TimelineHeader from "./TimelineHeader";
+import TweetComposer from "./TweetComposer";
 
 function App() {
   return (
@@ -10,6 +11,9 @@ function App() {
         <main className={styles.main}>
           <div className={styles.timeline}>
             <TimelineHeader />
+            <div className={styles.tweetComposerWrap}>
+              <TweetComposer />
+            </div>
           </div>
           <div className={styles.sidebar}></div>
         </main>
