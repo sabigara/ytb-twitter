@@ -67,9 +67,11 @@ const items: readonly ItemProps[] = [
 export default function Navigation(props: Props) {
   return (
     <nav>
-      <ul>
+      <ul className={styles.list}>
         {items.map((item) => (
-          <NavigationItem {...item} />
+          <li key={item.href}>
+            <NavigationItem {...item} />
+          </li>
         ))}
       </ul>
     </nav>
