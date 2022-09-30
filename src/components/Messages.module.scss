@@ -1,0 +1,44 @@
+@import "../styles/mixins.scss";
+
+.container {
+  position: fixed;
+  bottom: 0;
+  right: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  padding: 0.75rem 1rem;
+  border-top-left-radius: var(--round-lg);
+  border-top-right-radius: var(--round-lg);
+  background-color: var(--colors-bg);
+  box-shadow: rgb(136 153 166 / 20%) 0px 0px 15px,
+    rgb(136 153 166 / 15%) 0px 0px 3px 1px;
+  cursor: pointer;
+}
+
+.title {
+  font-weight: var(--font-weight-bold);
+  font-size: 1.25rem;
+}
+
+.buttonList {
+  display: flex;
+  align-items: center;
+  column-gap: 0.25rem;
+}
+
+.button {
+  @include hover();
+
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  border-radius: var(--round-full);
+}
+
+.icon {
+  width: 1.25rem;
+  height: 1.25rem;
+}
