@@ -1,0 +1,20 @@
+.container {
+  font-size: 0.85rem;
+  color: var(--colors-text-dim);
+}
+
+.list {
+  display: flex;
+  column-gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.anchor {
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.copyright {
+  font-size: 0.85rem;
+}

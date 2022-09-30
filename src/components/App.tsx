@@ -1,4 +1,5 @@
 import styles from "./App.module.scss";
+import Footer from "./Footer";
 import Header from "./Header";
 import SearchBar from "./SearchBar";
 import Timeline from "./Timeline";
@@ -26,6 +27,7 @@ function App() {
             </div>
             <Trends />
             <WhoToFollow />
+            <Footer />
           </div>
         </main>
       </div>
